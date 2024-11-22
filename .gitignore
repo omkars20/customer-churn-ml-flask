@@ -1,0 +1,27 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+test-venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+logs/
+
+app1.py
+experiments.py
+
+# Ignore environment files
+.env
+
+# Ignore Procfile if used only for local deployment testing
+Procfile
+
+# Ignore data files (add specific files if needed)
+Data/
